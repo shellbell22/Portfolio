@@ -1,0 +1,98 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+}
+
+a {
+	/* Typography Declrations */
+	font-weight: bold;
+	text-decoration: none;
+	color: #ED6C39;
+}
+
+a:hover {
+	/* Tyopography Declarations */
+	color: #FF9966;
+}
+
+a:visited {
+	/* Typography Declarations */
+	color: #FF9966;
+}
+
+::selection {
+    /* Appearance Declarations */
+	background: #3FB5AA;
+}
+
+#titleimageid {
+  width: 80%;
+  height: 50%;
+  padding-left: 8%;
+}
+
+.header-nav-links {
+  list-style-type: none;
+  padding-left: 31%;
+}
+
+.header-nav-links > li {
+  display: inline;
+  padding-right: 75px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+}
+
+.projects-section {
+  width: 100%;
+  height: 100%;
+  background-color: #16667D;
+}
+
+.social > li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+#tennispic {
+  width: 30%;
+  height: 100%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  border-color: #a7a3a1;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.content-footer > p {
+    color: white;
+}
+
+.content-footer {
+  	/* Layout Declarations */
+	margin-top: 5em;
+	padding: 4em 0;
+	/* Appearance Rules */
+  background-color: #16667D;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+
+  h1 {
+  	font-size: 2em;
+  }
+
+  .social {
+  	font-size: 1.5em;
+  }
+}
